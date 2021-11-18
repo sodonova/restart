@@ -7,12 +7,15 @@ with open('resume.json') as jsonfile:
     obj = json.load(jsonfile)
 # print(obj['Education']['GPA'])
 obj['Sections'] = obj['Sections'][:-2]
+st.sidebar.markdown("""## Welcome to Restart!  \nRestart the resume process. 
+You should have a personalized version of my resume - after all, you know what you need to see best.
+Start typing in the fields below to generate a resume.""")
 st.markdown(f'# {obj["Name"]}')
 # form = st.sidebar.form(key='arbitrary_string')
 for section in obj['Sections']:
     st.markdown(f'## {section}')
     # selected_sections = form.multiselect(f'In {section}, see:',obj[section])
-    selected_sections = st.sidebar.multiselect(f'In {section}, see:',obj[section])
+    selected_sections = st.sidebar.multiselect(f'In {section}, see:', obj[section], list(obj[section].keys())[0])
     for subsection in selected_sections:
         if type(obj[section][subsection]) == list:
             obj[section][subsection] = ', '.join(obj[section][subsection])
