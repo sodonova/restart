@@ -8,7 +8,7 @@ with open('resume.json') as jsonfile:
 # print(obj['Education']['GPA'])
 obj['Sections'] = obj['Sections'][:-2]
 st.sidebar.markdown("""## Welcome to Restart!  \nRestart the resume process. 
-You should have a personalized version of my resume - after all, you know what you need to see best.
+You should have a personalized version of my resume - after all, you know what's relevant best.
 Start typing in the fields below to generate a resume.""")
 st.markdown(f'# {obj["Name"]}')
 # form = st.sidebar.form(key='arbitrary_string')
