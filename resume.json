@@ -1,0 +1,21 @@
+{
+    "Name":"Sean O'Donovan",
+    "Sections":["Education", "Technical Skills","Projects", "Work Experience","Extra-Curriculars"],
+    "Education":{
+        "University":"Purdue University - Main Campus, West Lafayette, IN  \nBachelor of Science in Computer Science and Data Science  \nGraduation May 2023",
+        "GPA":3.58
+    },
+    "Technical Skills":{
+        "Comfort Language":"Java, just explicit enough to be fun.",
+        "Languages, fluent":["Java","Python", "C"],
+        "Languages, conversant":["C++", "C#", "Bash", "R", "SQL"],
+        "Tools":["Git & Github", "Bash", "SSH", "Vim", "Firebase (cloud)", "Venv", "Android Studio"]
+    },
+    "Projects":{
+        "Red Riding Hood":"Red Riding Hood with Java and Firebase, June - July 2020  \nTechpoint (S.O.S.)  \n- Won the Community Non-Profit category of the S.O.S. Challenge, with a 'perfect technical score' and the 'highest combined point total of any team in the competition.' (from the Techpoint Index)  \n- Worked remotely for an average of 22 hours per week to produce a product prototype. Built an Android App with two teammates that allows users to reserve food and a time to pick it up, and allows volunteers to view and interact with reservations.  \n- Independently implemented Firebase Authentication login and real-time updates from Firebase Firestore, a cloud database.",
+        "MIDI Interpreter":"MIDI File Interpretation Tool with C, SSH, Bash, and Vim, April 2020  \nCS240:Programming in C Class Project  \n- Employed bitwise input and output, variable length quantities, and dynamically sized pointer arrays to interpret MIDI (.mid) files for Programming in C class.  \n- Demonstrated skill with remote work; all work was completed over SSH, primarily using Vim.",
+        "Social Forum Analysis":"Social Forum Analysis Scripts with Python, December 2019  \nPersonal Project  \n- Utilized the Python Reddit Api Wrapper to collect comment data on social forums r/columbus and r/hongkong.  \n- Compiled the data into useable CSVs with the Pandas library for Python, and analyzed and visualized comment data with the Matplotlib library for Python to shed light on artificial accounts.",
+        "Corec Forecasting":"Cordova Recreation Center Occupancy Analysis and Forecasting with Python, November 2021  \nPersonal Project  \n- Created a program that scraped occupancy api data every hour, reading JSON.  \n- Forecasted gym occupancy with K Nearest Neighbors regressor, visualized results with Plotly, Jupyter, and Streamlit.",
+        "Shell":"Shell Project with C++, November 2021  \nCS252:Systems Programming Class Project  \n- Created a shell in C++, using lex and yacc.  \n- Used processes and pipes to fulfill background processing needs."
+    }
+}
