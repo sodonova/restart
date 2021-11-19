@@ -6,10 +6,10 @@
         "GPA":3.58
     },
     "Technical Skills":{
-        "Programming Languages": ["Java","Python", "C","C++", "Bash", "R","Js", "SQL", "C#"],
+        "Programming": ["Java","Python", "C","C++", "Bash", "R","Js", "SQL", "C#"],
         "Tools":["Git & Github", "Bash", "SSH", "Vim", "Firebase (cloud)", "Venv", "Android Studio"],
-        "Languages, fluent":["Java","Python", "C"],
-        "Languages, conversant":["C++", "C#", "Bash", "R","Js", "SQL"],
+        "Programming, fluent":["Java","Python", "C"],
+        "Programming, conversant":["C++", "C#", "Bash", "R","Js", "SQL"],
         "Comfort Language":"Java, just explicit enough to be fun."
     },
     "Projects":{
