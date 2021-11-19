@@ -1,0 +1,5 @@
+{
+    "Professional": "[theme]\nprimaryColor=\"#F63366\"\nbackgroundColor=\"#FFFFFF\"\nsecondaryBackgroundColor=\"#F0F2F6\"\ntextColor=\"#262730\"\nfont=\"serif\"",
+    "Light": "[theme]\nprimaryColor=\"#6eb52f\"\nbackgroundColor=\"#f0f0f5\"\nsecondaryBackgroundColor=\"#e0e0ef\"\ntextColor=\"#262730\"\nfont=\"sans serif\"",
+    "Solarized": "[theme]\nprimaryColor=\"#d33682\"\nbackgroundColor=\"#002b36\"\nsecondaryBackgroundColor=\"#586e75\"\ntextColor=\"#fafafa\"\nfont=\"sans serif\""
+} 
