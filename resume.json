@@ -7,10 +7,10 @@
         "Relevant coursework": ["CS373 Data Mining and Machine Learning", "CS252 Systems Programming", "CS251 Data Structures", "CS250 Computer Architecture", "CS240 Programming in C","CS242 Introduction to Data Science", "CS182 Foundations of Computer Science", "CS180 Programming I (Java)"]
     },
     "Technical Skills":{
+        "Programming, proficient":["Java","Python", "C"],
+        "Programming, familiar":["C++", "C#", "Bash", "R","Js", "SQL"],
         "Programming": ["Java","Python", "C","C++", "Bash", "R","Js", "SQL", "C#"],
         "Tools":["Git & Github", "Bash", "SSH", "Vim", "Firebase (cloud)", "Venv", "Android Studio"],
-        "Programming, fluent":["Java","Python", "C"],
-        "Programming, conversant":["C++", "C#", "Bash", "R","Js", "SQL"],
         "Comfort Language":"Java, just explicit enough to be fun."
     },
     "Projects":{
