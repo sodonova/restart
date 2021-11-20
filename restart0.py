@@ -9,17 +9,6 @@ def load_df():
         loaded_obj = json.load(jsonfile)
     # loaded_obj['Sections'] = loaded_obj['Sections'][:-2]
     return loaded_obj
-def init_session_states(section):
-    if section not in st.session_state:
-        print('not yet in ', section)
-        st.session_state[section] = list(resume[section].keys())[0]
-    else:
-        print('key',section,'in session as',st.session_state[section])
-    if f'{section}_col' not in st.session_state:
-        print('col not yet in ', section)
-        st.session_state[f'{section}_col'] = 0
-    else:
-        print('col key',section,'in session as',st.session_state[f'{section}_col'])
 
 
 resume = load_df() # resume as dict from json
@@ -36,15 +25,12 @@ for section in selected_sections:
     st.markdown(f'## {section}')
 
     # make sections selectable
-    # selected_subsections = form.multiselect(f'In {section}, see:',obj[section])
     section_expander = st.sidebar.expander(section)
-    init_session_states(section)
-    # not using key in the expected manner because when the widget goes away, the corresponding session state
-    # is cleared for some reason. written my own that doesn't clear.
-    selected_subsections = section_expander.multiselect(f'In {section}, see:', options=resume[section], default=st.session_state[section], key=f'{section}_disregard')
-    st.session_state[section] = selected_subsections
-    num_columns = section_expander.selectbox('Columns', [1, 2, 3], index=st.session_state[f'{section}_col'], key=f'{section}_disregard2')
-    st.session_state[f'{section}_col'] = num_columns - 1 # index of
+    selected_subsections = section_expander.multiselect(f'In {section}, see:',
+                                                        options=resume[section],
+                                                        default=list(resume[section].keys())[0],
+                                                        key=f'{section}_disregard')
+    num_columns = section_expander.selectbox('Columns', [1, 2, 3], index=0, key=f'{section}_disregard2')
 
     columns = st.columns(num_columns)
     column_counter = 0

@@ -3,7 +3,8 @@
     "Sections":["Education", "Technical Skills","Projects", "Work Experience","Extra-Curriculars"],
     "Education":{
         "University":"Purdue University Main Campus, West Lafayette, IN  \nBachelor of Science in Computer Science and Data Science, Graduation May 2023",
-        "GPA":3.58
+        "GPA":3.58,
+        "Relevant coursework": ["CS373 Data Mining and Machine Learning", "CS252 Systems Programming", "CS251 Data Structures", "CS250 Computer Architecture", "CS240 Programming in C","CS242 Introduction to Data Science", "CS182 Foundations of Computer Science", "CS180 Programming I (Java)"]
     },
     "Technical Skills":{
         "Programming": ["Java","Python", "C","C++", "Bash", "R","Js", "SQL", "C#"],
