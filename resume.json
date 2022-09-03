@@ -3,17 +3,23 @@
     "Sections":["Education", "Technical Skills","Projects", "Work Experience","Extra-Curriculars"],
     "Education":{
         "University":"Purdue University Main Campus, West Lafayette, IN  \nBachelor of Science in Computer Science and Data Science, Graduation May 2023",
-        "GPA":3.58,
-        "Relevant coursework": ["CS373 Data Mining and Machine Learning", "CS252 Systems Programming", "CS251 Data Structures", "CS250 Computer Architecture", "CS240 Programming in C","CS242 Introduction to Data Science", "CS182 Foundations of Computer Science", "CS180 Programming I (Java)"]
+        "GPA":3.74,
+        "Relevant coursework": ["CS381 Introduction to the Analysis of Algorithms", "CS440 Introduction To Relational Database Systems", "CS373 Data Mining and Machine Learning", "CS252 Systems Programming", "CS251 Data Structures", "CS250 Computer Architecture", "CS240 Programming in C","CS242 Introduction to Data Science", "CS182 Foundations of Computer Science", "CS180 Programming I (Java)"]
     },
     "Technical Skills":{
         "Programming, proficient":["Java","Python", "C"],
         "Programming, familiar":["C++", "C#", "Bash", "R","Js", "SQL"],
         "Programming": ["Java","Python", "C","C++", "Bash", "R","Js", "SQL", "C#"],
-        "Tools":["Git & Github", "Bash", "SSH", "Vim", "Firebase (cloud)", "Venv", "Android Studio"],
+        "Tools":["Git & Github", "Bash", "SSH", "Vim", "Firebase (cloud)", "Venv", "MySQL", "SQLAlchemy", "Android Studio"],
         "Comfort Language":"Java, just explicit enough to be fun."
     },
     "Projects":{
+        "Social Media Site": ["Social Media Site with Python, React, SQL, and Flask, January - May 2022  \nCS 307 Team Project  \n",
+                              "- Project manager for an agile software development team, organized with JIRA.\n",
+                              "- Created and debugged the MySQL backend personally, wrapped with a SQLAlchemy ORM.\n"],
+        "StudyWithClass": ["Study with Class with Python, January 2022  \nBoilerMake Winner  \n",
+                           "- Won Purdue’s primary hackathon Boilermake IX in 36 hours with 3 teammates.  \n",
+                           "- Created a Flask website that parsed data from an .ical url, stored data in a SQLite database, and created study group MMS groups with Twilio.  \n"],
         "Red Riding Hood": ["Red Riding Hood with Java and Firebase, June - July 2020  \nTechpoint (S.O.S. team project)  \n",
             "- Independently implemented Firebase Authentication login and real-time updates from Firebase Firestore, a cloud database.  \n",
             "- Won the Community Non-Profit category of the S.O.S. Challenge, with a 'perfect technical score' and the 'highest combined point total of any team in the competition.' (from the Techpoint Index)  \n",
@@ -25,7 +31,9 @@
     },
     "Work Experience": {
         "Delivery Driver": "DoorDash, Inc Delivery Driver, May - August 2021  \n- Achieved 4.9/5 customer rating based on 100 most recent deliveries.",
-        "Print and Marketing Associate": "Staples, Inc Print and Marketing Associate, August 2018  \n- Generated professional quality print products for customers and professional clients."
+        "Print and Marketing Associate": "Staples, Inc Print and Marketing Associate, August 2018  \n- Generated professional quality print products for customers and professional clients.",
+        "Undergraduate Teaching Assistant": "Purdue University UTA for CS 252 Systems Programming, January - May 2022  \n- Communicated professionally with the TA team and with students, explaining complex concepts.  \n- Read, evaluated, and debugged C and C++ code of various quality.",
+        "Interim Engineering Intern": "Qualcomm Windows Development Tools, May - August 2022  \n- Implemented a device to device bitwise communication specification with a unit testing (MSTest) approach.  \n- Utilized marshalled structs and garbage collection manipulation, low level C# features, in the implementation.  \n- Created custom bitwise encoder and decoder for variable length ULEB128 values.  \n- Created and modified hardware reference apps for cameras, microphones, and speakers, gaining experience in XAML based design, concurrent C# programming, and .NET development of Windows Applications."
     },
     "Extra-Curriculars": {
         "CTF": "Compete with b01lers, Purdue's Cyber CTF team. January 2021 - June 2021",
